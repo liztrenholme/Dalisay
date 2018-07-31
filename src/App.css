@@ -1,0 +1,83 @@
+body {
+  background-color: #9D9E84;
+  background-blend-mode: screen;
+/*color: #504370;*/
+}
+
+.navbar-nav {
+  color: #504370;
+}
+
+#logoimg {
+  margin: -10px 0px 0px 0px;
+}
+
+h4 {
+  font-family: 'Parisienne', cursive;
+  margin: -10px 20px -15px -2px;
+  color: #545551;
+}
+
+p {
+  font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+  color: #545551;
+}
+
+.nav-link {
+font-size: 150%;
+}
+
+.display-4 {
+background-color: #fff;
+}
+
+.lead {
+
+background-image: url(images/hands.jpg);
+background-size: cover;
+}
+
+.row {
+background-color: #fff;
+}
+
+.container {
+  margin: 20px;
+  opacity: .9;
+}
+
+a:link {
+  color: #504370;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #504370;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) 
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+} */

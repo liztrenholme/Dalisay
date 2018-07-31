@@ -1,3 +1,1 @@
-# Dalisay
-Dalisay Massage and Reiki
-Website for Rachel's Massotherapy Business
+A website for Rachel's massotherapy and reiki business, Dalisay.  Created using React.js.
