@@ -5,6 +5,7 @@ import Main from './Components/Main';
 import About from './Components/About';
 import Services from './Components/Services';
 import Pets from './Components/Pets';
+import Schedule from './Components/Schedule';
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +31,8 @@ class App extends Component {
         return <About />;
       case 'pets':
         return <Pets />;
+      case 'schedule':
+        return <Schedule />;
       default:
         return null;
     }
@@ -48,6 +51,7 @@ class App extends Component {
               <p className="nav-item nav-link" id="services" onClick={this.handleClick.bind(this)}>Services</p>
               <p className="nav-item nav-link" id="about" onClick={this.handleClick.bind(this)}>About Rachel</p>
               <p className="nav-item nav-link" id="pets" onClick={this.handleClick.bind(this)}>Pets</p>
+              <p className="nav-item nav-link" id="schedule" onClick={this.handleClick.bind(this)}>Schedule</p>
             </div>
           </div>
         </nav>
