@@ -26,10 +26,17 @@ p, h2 {
 }
 
 li {
-  text-align: center;
+  text-align: left;
   list-style: none;
   font-family: 'Quattrocento Sans', Helvetica, sans-serif;
   color: #545551;
+  margin: 3%;
+}
+
+.greeting {
+  font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+  color: #545551;
+  font: 400% bold;
 }
 
 .nav-link {
@@ -38,7 +45,7 @@ margin: 0 2%;
 }
 
 .display {
-  margin: 10%;
+  margin: 10% 5%;
   padding: 5%;
   left: auto;
   right: auto;
@@ -54,12 +61,12 @@ background-color: #fff;
 }
 
 .row {
-background-color: #fff;
+/* background-color: #fff; */
 }
 
 .container {
-  margin: 20px;
-  opacity: .9;
+  /* margin: 20px; */
+  opacity: .7;
 }
 
 a:link {
@@ -77,10 +84,15 @@ p:visited {
   text-decoration: none;
 }
 
+input {
+  margin: 5px;
+}
 
-/* Extra small devices (portrait phones, less than 576px) 
-@media (max-width: 575.98px) {
-
+/* /* Extra small devices (portrait phones, less than 576px)  */
+@media (max-width: 767.98px) {
+  .display {
+    margin: 20% 10%;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) 

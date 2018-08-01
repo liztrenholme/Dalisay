@@ -13,20 +13,18 @@ class Main extends Component {
     const d = new Date();
     time = d.getHours();
     if (time < 12) {
-      return <p className='greeting'>Good morning!</p>
+      return <span className='greeting'>Good morning!</span>
     }
     else if (time > 12 && time < 17) {
-      return <p className='greeting'>Good afternoon!</p>
+      return <span className='greeting'>Good afternoon!</span>
     }
     else if (time > 17) {
-      return <p className='greeting'>Good evening!</p>
+      return <span className='greeting'>Good evening!</span>
+    }
+    else {
+      return <span className='greeting'>Hello!</span>
     }
   }
-  // doGreeting(time) {
-  //   this.setState({
-  //     greeting: this.determineGreeting(time)
-  //   });
-  // }
 
   render() {
     return (
