@@ -19,10 +19,17 @@ h4 {
   color: #545551;
 }
 
-p {
+p, h2 {
   font-family: 'Quattrocento Sans', Helvetica, sans-serif;
   color: #545551;
   text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+  color: #545551;
 }
 
 .nav-link {
@@ -31,12 +38,12 @@ margin: 0 2%;
 }
 
 .display {
-  margin-top: 10%;
+  margin: 10%;
   padding: 5%;
   left: auto;
   right: auto;
   background-color: #fff;
-  width: 100%;
+  /* width: 100%; */
   height: 30em;
   background-image: url(images/hands.jpg);
   background-size: cover;
@@ -55,7 +62,7 @@ background-color: #fff;
   opacity: .9;
 }
 
-p:link {
+a:link {
   color: #504370;
   text-decoration: none;
 }
@@ -65,7 +72,7 @@ p:visited {
   text-decoration: none;
 }
 
-p:hover {
+.navbar:hover {
   color: gray;
   text-decoration: none;
 }

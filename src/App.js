@@ -5,7 +5,8 @@ import Main from './Components/Main';
 import About from './Components/About';
 import Services from './Components/Services';
 import Pets from './Components/Pets';
-import Schedule from './Components/Schedule';
+import Etiquette from './Components/Etiquette';
+import Contact from './Components/Contact';
 
 class App extends Component {
   constructor(props) {
@@ -18,7 +19,6 @@ class App extends Component {
     let id = event.target.id;
     this.setState({
       whichComponent: this.showComponent(id)
-
     });
   }
   showComponent(id) {
@@ -31,8 +31,10 @@ class App extends Component {
         return <About />;
       case 'pets':
         return <Pets />;
-      case 'schedule':
-        return <Schedule />;
+      case 'etiquette':
+        return <Etiquette />;
+      case 'contact':
+        return <Contact />;
       default:
         return null;
     }
@@ -41,7 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <a className="navbar-brand" id="home"><img id="logoimg" src={Mandala} width="70px" height="70px" /><h4>Dalisay</h4></a>
+          <a className="navbar-brand" id="home"><img id="logoimg" src={Mandala} alt="mandala" width="70px" height="70px" /><h4>Dalisay</h4></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -51,7 +53,8 @@ class App extends Component {
               <p className="nav-item nav-link" id="services" onClick={this.handleClick.bind(this)}>Services</p>
               <p className="nav-item nav-link" id="about" onClick={this.handleClick.bind(this)}>About Rachel</p>
               <p className="nav-item nav-link" id="pets" onClick={this.handleClick.bind(this)}>Pets</p>
-              <p className="nav-item nav-link" id="schedule" onClick={this.handleClick.bind(this)}>Schedule</p>
+              <p className="nav-item nav-link" id="etiquette" onClick={this.handleClick.bind(this)}>Etiquette</p>
+              <p className="nav-item nav-link" id="contact" onClick={this.handleClick.bind(this)}>Contact</p>
             </div>
           </div>
         </nav>

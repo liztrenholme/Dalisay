@@ -2,16 +2,20 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class Services extends Component {
-
-  // need an if/else to decide whether to render 
-  // stove or oven depending on chosen ingredient for game
-  render() {
-    return (
-      <div className="Services">
-        <p>This is the Services component!</p>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="Services">
+                <h2>Services Offered</h2>
+                <ul className='services-list'>
+                    <li>Deep Tissue Massage</li>
+                    <li>Relaxation Massage</li>
+                    <li>Clinical Neuromuscular Therapy</li>
+                    <li>Myokinesthetic</li>
+                    <li>Reiki</li>
+                </ul>
+            </div>
+        );
+    }
 }
 
 export default Services;
