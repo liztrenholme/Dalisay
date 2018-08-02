@@ -43,18 +43,42 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <a className="navbar-brand" id="home"><img id="logoimg" src={Mandala} alt="mandala" width="70px" height="70px" /><h4>Dalisay</h4></a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a className="navbar-brand" 
+            id="home"><img 
+            id="logoimg" 
+            src={Mandala} 
+            alt="mandala" 
+            width="70px" 
+            height="70px" /><h4>Dalisay</h4></a>
+          <button className="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse mr-auto" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <p className="nav-item nav-link" id="home" onClick={this.handleClick.bind(this)}>Home</p>
-              <p className="nav-item nav-link" id="services" onClick={this.handleClick.bind(this)}>Services</p>
-              <p className="nav-item nav-link" id="about" onClick={this.handleClick.bind(this)}>About Rachel</p>
-              <p className="nav-item nav-link" id="pets" onClick={this.handleClick.bind(this)}>Pets</p>
-              <p className="nav-item nav-link" id="etiquette" onClick={this.handleClick.bind(this)}>Etiquette</p>
-              <p className="nav-item nav-link" id="contact" onClick={this.handleClick.bind(this)}>Contact</p>
+              <p className="nav-item nav-link" 
+                id="home" 
+                onClick={this.handleClick.bind(this)}>Home</p>
+              <p className="nav-item nav-link" 
+                id="services" 
+                onClick={this.handleClick.bind(this)}>Services</p>
+              <p className="nav-item nav-link" 
+                id="about" 
+                onClick={this.handleClick.bind(this)}>About Rachel</p>
+              <p className="nav-item nav-link" 
+                id="pets" 
+                onClick={this.handleClick.bind(this)}>Pets</p>
+              <p className="nav-item nav-link" 
+                id="etiquette" 
+                onClick={this.handleClick.bind(this)}>Etiquette</p>
+              <p className="nav-item nav-link" 
+                id="contact" 
+                onClick={this.handleClick.bind(this)}>Contact</p>
             </div>
           </div>
         </nav>
