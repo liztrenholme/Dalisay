@@ -10,7 +10,8 @@ class Services extends Component {
                     <li>Deep Tissue Massage</li>
                     <li>Relaxation Massage</li>
                     <li>Clinical Neuromuscular Therapy</li>
-                    <li>Myokinesthetic</li>
+                    <li>Myokinesthetic Therapy</li>
+                    <li>Pregnancy Massage</li>
                     <li>Reiki</li>
                 </ul>
             </div>

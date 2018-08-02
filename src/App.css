@@ -29,8 +29,14 @@ li {
   text-align: left;
   list-style: none;
   font-family: 'Quattrocento Sans', Helvetica, sans-serif;
-  color: #545551;
+  color: #2b2c2a;
   margin: 3%;
+}
+
+.Services {
+  background-color: #fff;
+  opacity: .7;
+  height: 23em;
 }
 
 .greeting {
@@ -86,6 +92,8 @@ p:visited {
 
 input {
   margin: 5px;
+  width: 85%;
+  display: block;
 }
 
 /* /* Extra small devices (portrait phones, less than 576px)  */
