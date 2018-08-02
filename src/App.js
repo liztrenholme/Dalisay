@@ -43,13 +43,15 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <a className="navbar-brand" 
-            id="home"><img 
-            id="logoimg" 
-            src={Mandala} 
-            alt="mandala" 
-            width="70px" 
-            height="70px" /><h4>Dalisay</h4></a>
+          <a className="navbar-brand" id="home">
+            <img 
+              id="logoimg" 
+              src={Mandala} 
+              alt="mandala" 
+              width="70px" 
+              height="70px" 
+            /><h4>Dalisay</h4>
+          </a>
           <button className="navbar-toggler" 
             type="button" 
             data-toggle="collapse" 
