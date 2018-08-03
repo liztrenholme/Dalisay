@@ -119,9 +119,16 @@ p:visited {
 
 input {
   margin: 5px;
-  width: 85%;
+  width: 88%;
   display: block;
+  border-radius: 10px;
 }
+
+textarea {
+  margin: 5px;
+  border-radius: 10px;
+}
+
 
 /* /* Extra small devices (portrait phones, less than 576px)  */
 @media (max-width: 767.98px) {
