@@ -11,10 +11,10 @@ class Contact extends Component {
                         </div>
                         <div className="col-md-6">
                             <form action="https://formspree.io/liztrenholme@gmail.com" method="POST">
-                                <input type="text" name="fname" placeholder="First name" />
-                                <input type="text" name="lname" placeholder="Last name" />
-                                <input type="email" name="_replyto" placeholder="Your email address" />
-                                <textarea rows="10" cols="40" name="message" placeholder="Message..." width="50%" height="50%"></textarea>
+                                <input type="text" required name="fname" placeholder="First name" />
+                                <input type="text" required name="lname" placeholder="Last name" />
+                                <input type="email" required name="_replyto" placeholder="Your email address" />
+                                <textarea required rows="10" cols="40" name="message" placeholder="Message..." width="50%" height="50%"></textarea>
                                 <input type="submit" className='btn-secondary' value="Send" />
                             </form>
                         </div>
