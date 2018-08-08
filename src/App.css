@@ -52,8 +52,8 @@ span {
   font-size: 400%;
   animation-name: say-hi;
   -webkit-animation-name: say-hi;
-  animation-delay: 4s;
-  -webkit-animation-delay: 4s;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
   animation-timing-function: ease-in;
@@ -61,7 +61,7 @@ span {
 }
 
 @-webkit-keyframes say-hi {
-  0% { opacity: 1; }
+  0% { opacity: 0; }
   25% { opacity: 0.25; }
   50% { opacity: 0.5; }
   75% { opacity: 0.75; }
@@ -69,7 +69,7 @@ span {
 }
 
 @keyframes say-hi {
-  0% { opacity: 1; }
+  0% { opacity: 0; }
   25% { opacity: 0.25; }
   50% { opacity: 0.5; }
   75% { opacity: 0.75; }
