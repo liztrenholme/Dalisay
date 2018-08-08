@@ -163,6 +163,9 @@ textarea {
   border-radius: 10px;
 }
 
+.btn-secondary {
+  margin-top: 1%;
+}
 
 /* /* Extra small devices (portrait phones, less than 576px)  */
 @media (max-width: 767.98px) {
