@@ -56,8 +56,8 @@ span {
   -webkit-animation-duration: 2s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
-  -webkit-animation-timing-function: ease-in;
+  /* animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in; */
 }
 
 @-webkit-keyframes say-hi {

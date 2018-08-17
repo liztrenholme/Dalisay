@@ -8,7 +8,7 @@ class About extends Component {
   render() {
     return (
       <div className="About">
-        <p>This is the About component!</p>
+        <p>Rachel is a Cleveland, Ohio native.  Her life's mission to bring healing and happiness to those in need.</p>
       </div>
     );
   }
