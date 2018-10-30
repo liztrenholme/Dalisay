@@ -41,7 +41,7 @@ li {
 .Services {
   background-color: #fff;
   opacity: .7;
-  height: 23em;
+  height: auto;
 }
 
 span {
@@ -122,9 +122,8 @@ p:visited {
   text-decoration: none;
 }
 
-input {
+input, textarea {
   margin: 5px;
-  width: 88%;
   display: block;
   border-radius: 10px;
   border: 0;
@@ -160,7 +159,6 @@ input:focus + label {
 textarea {
   width: 100%;
   margin: -1%;
-  border-radius: 10px;
 }
 
 .btn-secondary {
