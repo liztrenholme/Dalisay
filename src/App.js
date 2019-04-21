@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Mandala from "./images/mandala.png";
 import './App.css';
-import Main from './Components/Main';
-import About from './Components/About';
-import Services from './Components/Services';
-import Pets from './Components/Pets';
-import Etiquette from './Components/Etiquette';
-import Contact from './Components/Contact';
+import Main from './Components/main/Main';
+import About from './Components/about/About';
+import Services from './Components/services/Services';
+import Pets from './Components/pets/Pets';
+import Etiquette from './Components/etiquette/Etiquette';
+import Contact from './Components/contact/Contact';
 
 class App extends Component {
   constructor(props) {
