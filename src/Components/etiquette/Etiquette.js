@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './etiquette.css';
+import React, { Component } from 'react'
+import './etiquette.css'
 
 class Etiquette extends Component {
   render() {
@@ -7,11 +7,11 @@ class Etiquette extends Component {
       <div className="Etiquette">
         <p>This is the Etiquette component!</p>
       </div>
-    );
+    )
   }
 }
 
-export default Etiquette;
+export default Etiquette
 
 
 

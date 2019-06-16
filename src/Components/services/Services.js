@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './services.css';
+import React, { Component } from 'react'
+import './services.css'
 
 class Services extends Component {
     render() {
@@ -15,8 +15,8 @@ class Services extends Component {
                     <li>Reiki</li>
                 </ul>
             </div>
-        );
+        )
     }
 }
 
-export default Services;
+export default Services

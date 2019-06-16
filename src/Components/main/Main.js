@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './main.css';
+import React, { Component } from 'react'
+import './main.css'
 
 class Main extends Component {
   // constructor(props) {
@@ -10,8 +10,8 @@ class Main extends Component {
   state = { greeting: this.determineGreeting() };
 
   determineGreeting(time) {
-    const d = new Date();
-    time = d.getHours();
+    const d = new Date()
+    time = d.getHours()
     if (time < 12) {
       return <span className='greeting'>Good morning!</span>
     }
@@ -31,8 +31,8 @@ class Main extends Component {
       <div className="Main">
         {this.state.greeting}
       </div>
-    );
+    )
   }
 }
 
-export default Main;
+export default Main

@@ -1,42 +1,38 @@
-import React, { Component } from 'react';
-import Mandala from "./images/mandala.png";
-import './App.css';
-import Main from './Components/main/Main';
-import About from './Components/about/About';
-import Services from './Components/services/Services';
-import Pets from './Components/pets/Pets';
-import Etiquette from './Components/etiquette/Etiquette';
-import Contact from './Components/contact/Contact';
+import React, { Component } from 'react'
+import Mandala from './images/mandala.png'
+import './App.css'
+import Main from './Components/main/Main'
+import About from './Components/about/About'
+import Services from './Components/services/Services'
+import Pets from './Components/pets/Pets'
+import Etiquette from './Components/etiquette/Etiquette'
+import Contact from './Components/contact/Contact'
 
 class App extends Component {
-  constructor(props) {
-    super(props); // must call super or else 'this' will be uninitialized
-    this.showComponent = this.showComponent.bind(this); // bind ties the onclick to 'this'
-  }
   state = { whichComponent: <Main /> };
 
-  handleClick(event) { // this is what happens when the click is clicked
-    let id = event.target.id;
+  handleClick = (event) => {
+    let id = event.target.id
     this.setState({
       whichComponent: this.showComponent(id)
-    });
+    })
   }
   showComponent(id) {
     switch (id) {
       case 'home':
-        return <Main />;
+        return <Main />
       case 'services':
-        return <Services />;
+        return <Services />
       case 'about':
-        return <About />;
+        return <About />
       case 'pets':
-        return <Pets />;
+        return <Pets />
       case 'etiquette':
-        return <Etiquette />;
+        return <Etiquette />
       case 'contact':
-        return <Contact />;
+        return <Contact />
       default:
-        return null;
+        return null
     }
   }
   render() {
@@ -65,22 +61,22 @@ class App extends Component {
             <div className="navbar-nav">
               <p className="nav-item nav-link" 
                 id="home" 
-                onClick={this.handleClick.bind(this)}>Home</p>
+                onClick={this.handleClick}>Home</p>
               <p className="nav-item nav-link" 
                 id="services" 
-                onClick={this.handleClick.bind(this)}>Services</p>
+                onClick={this.handleClick}>Services</p>
               <p className="nav-item nav-link" 
                 id="about" 
-                onClick={this.handleClick.bind(this)}>About Rachel</p>
+                onClick={this.handleClick}>About Rachel</p>
               <p className="nav-item nav-link" 
                 id="pets" 
-                onClick={this.handleClick.bind(this)}>Pets</p>
+                onClick={this.handleClick}>Pets</p>
               <p className="nav-item nav-link" 
                 id="etiquette" 
-                onClick={this.handleClick.bind(this)}>Etiquette</p>
+                onClick={this.handleClick}>Etiquette</p>
               <p className="nav-item nav-link" 
                 id="contact" 
-                onClick={this.handleClick.bind(this)}>Contact</p>
+                onClick={this.handleClick}>Contact</p>
             </div>
           </div>
         </nav>
@@ -90,8 +86,8 @@ class App extends Component {
         </div>
       </div>
       
-    );
+    )
   }
 }
 
-export default App;
+export default App
